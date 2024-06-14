@@ -1,0 +1,35 @@
+{
+  "name": "telegram-bot-deployer",
+  "version": "1.0.0",
+  "description": "A Telegram bot that deploys other bots using provided tokens and code.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "dockerode": "^3.3.0",
+    "node-telegram-bot-api": "^0.54.0",
+    "winston": "^3.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/telegram-bot-deployer.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "deployer",
+    "docker",
+    "heroku"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/telegram-bot-deployer/issues"
+  },
+  "homepage": "https://github.com/yourusername/telegram-bot-deployer#readme"
+}
