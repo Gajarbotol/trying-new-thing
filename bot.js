@@ -7,7 +7,7 @@ const winston = require('winston');
 const docker = new Docker();
 
 // Replace with your main bot token
-const token = process.env.TELEGRAM_TOKEN || 'YOUR_MAIN_BOT_TOKEN';
+const token = process.env.TELEGRAM_TOKEN || '7125865296:AAHI_w7KGa152kCOVPNgsavTNIfatUR0hX8';
 const bot = new TelegramBot(token, { polling: true });
 
 const userStates = {};
